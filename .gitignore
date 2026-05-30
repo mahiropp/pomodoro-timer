@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ポモドーロの統計ファイル（個人データ）
+stats.json
