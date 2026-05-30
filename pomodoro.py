@@ -48,6 +48,8 @@ def format_time(seconds):
 
 def countdown(total_seconds, label, color):
     print()
+    if total_seconds <= 0:
+        return
     for remaining in range(total_seconds, -1, -1):
         bar_len = 30
         filled = int(bar_len * (total_seconds - remaining) / total_seconds)
